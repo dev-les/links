@@ -206,7 +206,7 @@ body{
     margin-top: 5%;
     }
     .profile-container{
-	  margin: 0 auto;
+	margin: 0 auto;
     display: flex;
     align-items: center;
     }
@@ -274,7 +274,7 @@ body{
 </template>
 
 <script>
-import profileImage from './assets/images/DEV-LES_New.png'
+import profileImage from './assets/images/DEV-LES.png'
 import youtubeIcon from './assets/images/youtube.png';
 import tiktokIcon from './assets/images/tik-tok.png';
 import instagramIcon from './assets/images/instagram.png'
