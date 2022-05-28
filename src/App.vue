@@ -247,11 +247,11 @@ body{
              <h2 class="username">DEV-LES</h2>
         </div>
         <div class="link-container">
-            <a :href="`${action.url}`" class="card-wrapper" v-for="(action, index) of linkList"
+            <a :href="`${link.url}`" class="card-wrapper" v-for="(link, index) of linkList"
             :key="index" >
             <div class="content social-media-link">
-                    <img class="social-media-icon" :src="`${action.iconUrl}`" />
-                    <h3>{{action.name}}</h3>
+                    <img class="social-media-icon" :src="`${link.iconUrl}`" />
+                    <h3>{{link.name}}</h3>
                 </div>
             </a>
         </div>
