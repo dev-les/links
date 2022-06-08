@@ -13,6 +13,7 @@ npm run serve
 ### Deplolying in Github pages
 
 Set publicPath in vue.config.js to
+
 publicPath: '/Github Repo name/'
 
 ```
