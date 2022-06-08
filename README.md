@@ -10,7 +10,11 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Deplolying in Github pages
+
+Set publicPath in vue.config.js to
+publicPath: '/Github Repo name/'
+
 ```
 npm run build
 ```
